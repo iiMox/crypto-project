@@ -1,0 +1,7 @@
+img.home-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    width: 50px;
+}

@@ -1,0 +1,47 @@
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eee;
+}
+
+.home form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 25%;
+}
+
+.home form label {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.home form input {
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #a8a8a8;
+}
+
+.home form input::placeholder {
+    color: #a8a8a8;
+}
+
+.home form button {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    background-color: #0069d9;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}

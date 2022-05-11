@@ -1,0 +1,92 @@
+.diploma {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.diploma .container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.diploma .top {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin-bottom: 40px;
+}
+
+.diploma .top .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.diploma .top .image img {
+    width: 100px;
+    height: 100px;
+}
+
+.diploma .top .starts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.diploma .top .starts p {
+    margin: 0;
+}
+
+.diploma .top .starts h1 {
+    margin: 20px 0 0;
+    font-size: 40px;
+}
+
+.diploma .content .intro {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.diploma .content .intro span {
+    font-weight: 700;
+}
+
+.diploma .content .student-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 40px;
+}
+
+.diploma .content .student-info p {
+    margin: 0;
+}
+
+.diploma .content .student-info span {
+    font-weight: 700;
+}
+
+.diploma .content .student-info .personal-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.diploma .content .creation-info {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.diploma .content .note {
+    font-size: 12px;
+}
