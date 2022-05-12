@@ -51,7 +51,7 @@ const Row = ({
                             window.confirm("Vous voulez supprimer ce diplôme ?")
                         ) {
                             await certifsD.methods.deleteDiplome(id).send({
-                                from: "0xAF94094d56FCfE5b8ceF59A1d99d6Fae8169bEC9",
+                                from: "0x1c06595F6E29d50eDc6eb6e84b87cf8Ade848B10",
                                 gas: "1000000",
                             });
 
